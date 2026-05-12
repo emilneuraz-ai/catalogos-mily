@@ -10,7 +10,8 @@
     "supabase:start": "supabase start",
     "supabase:stop": "supabase stop",
     "supabase:status": "supabase status",
-    "supabase:db:push": "supabase db push"
+    "supabase:db:push": "supabase db push",
+    "seed": "node scripts/seed-products.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.3",
